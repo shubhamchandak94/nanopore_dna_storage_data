@@ -9,6 +9,7 @@ Directory description:
 - `decoded_lists`: contains the output of the convolutional code decoder for each experiment. These decoded lists are used by the RS outer code decoder to recover the encoded file.
 - `encoded_file`: contains the files that were encoded as part of the experiments.
 - `fast5_pass`: contains the original raw signal data in the fast5 format.
+- `fastq`: contains the basecalled reads.
 - `oligo_files`: contains the files containing the oligos that were sent for synthesis (one file for each experiment and a merged file). Also contains the input to the convolutional code encoder, which is helpful for error analysis.
 - `raw_data`: contains raw signal data split by experiment, which is used to run the convolutional code decoder.
 - `stats`: contains some statistics of the basecalled reads including error rates and read length distribution.
