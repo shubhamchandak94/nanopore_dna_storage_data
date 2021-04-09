@@ -5,9 +5,8 @@ Each subdirectory corresponds to an experiment and contains three files:
 - `info.txt`: the read ids and the original oligo sequence corresponding to the decoded lists.
 - `lists.tar.gz`: the decoded lists.
 
-To decompress the decoded lists for experiment 0, run
+To decompress the decoded lists for a particular experiment, run
 ```
-cd exp_0
 tar -xzf lists.tar.gz
 ```
 This produces one file per read, named as `list_0`, `list_1`, etc. Missing file denotes that the primer removal failed and the convolutional code decoding was not performed.
