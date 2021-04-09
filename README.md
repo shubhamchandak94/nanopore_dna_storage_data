@@ -16,4 +16,4 @@ Directory description:
 - `raw_data`: contains raw signal data split by experiment, which is used to run the convolutional code decoder.
 - `stats`: contains some statistics of the basecalled reads including error rates.
 
-**Note**: exp_9 for 20200814_MIN_0880 did not amplify properly and was not decoded since we got very few reads. Thus, it is missing in several directories.
+**Note**: `exp_9` for `20200814_MIN_0880` did not amplify properly and was not decoded since we got very few reads. Thus, it is missing in several directories.
